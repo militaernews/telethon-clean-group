@@ -1,1 +1,1 @@
-GROUP = "dosisdeutsch" #"MNChat"
+GROUP = "MNChat"  # "dosisdeutsch" #
