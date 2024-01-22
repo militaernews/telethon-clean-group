@@ -25,7 +25,7 @@ def is_inactive(user):
     statuses = [UserStatusEmpty]
 
     if config.strict:
-        statuses += UserStatusLastMonth
+        statuses.append(UserStatusLastMonth)
 
     return user.deleted or type(user.status) in statuses or (user.status is None and not user.bot)
 
