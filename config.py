@@ -1,8 +1,9 @@
 api_id = 1234
-api_hash = 'replace this'
+api_hash = 'replace this with data from https://my.telegram.org'
+NUMBER = "+123456789"
 
-GROUP = "username of group"
+GROUP = "id or username of chat"
 
-strict = False
+strict = True
 
-testing = True
+testing = False
