@@ -46,7 +46,7 @@ async def clear_chat():
         if await is_scam(user) or is_inactive(user):
             print("try kicking...\n")
             try:
-                deleted_accounts = deleted_accounts + 1
+                deleted_accounts += 1
 
                 if not config.testing:
                     await client.ban_chat_member(
